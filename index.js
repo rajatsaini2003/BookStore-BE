@@ -11,7 +11,7 @@ const app = express();
 
 // Configure CORS to allow requests from the frontend port
 app.use(cors({
-    origin: 'http://localhost:5173' // Adjust the origin as needed
+    origin: 'https://bookstoreweb2.netlify.app/' // Adjust the origin as needed
 }));
 
 app.use(express.json());
